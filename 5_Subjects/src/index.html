@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Subjects</h1>
+
+    <h2 class="my-3">Subject</h2>
+    
+    <div class="my-4 form-inline">
+      <div class="d-flex">
+        <input id="value-input" class="form-control" type="text" />
+        <button id="emit" class="btn btn-secondary mx-1">
+          Emit
+        </button>
+      </div>
+    </div>
+    
+    <button id="subscribe" class="btn btn-primary">
+      Subscribe
+    </button>
+
+    <hr />
+
+    <h2>Behavior Subject</h2>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand">Logged in: <span id="logged-in"></span></span>
+    </nav>
+
+    <div class="my-4 form-inline">
+      <button id="login" class="btn btn-primary mr-1">
+        Login
+      </button>
+      <button id="logout" class="btn btn-primary">
+        Logout
+      </button>
+    </div>
+    
+    <button id="print-state" class="btn btn-secondary">
+      Print state
+    </button>
+  </div>
+</body>
+</html>
+
